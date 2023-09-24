@@ -1,0 +1,14 @@
+matplotlib==3.6.2
+numpy==1.21.5
+Pillow==9.5.0
+POT @ git+https://github.com/khongtrunght/POT.git@8af0640231371d3d5a5582c00f2388da9d891096
+pyarrow==10.0.1
+pytorch_lightning==1.1.8
+torch==2.0.0
+tqdm==4.65.0
+lmdb==1.4.0
+scikit-learn
+rich
+gdown
+seaborn
+ray

@@ -1,0 +1,6 @@
+#! /bin/bash
+for k in 1 3 5; do
+    for i in {0..4}; do
+        python -m src.experiments.multi_features_weizmann.knn_eval --test_size 0.5 --reg 10 --m 0.8 --k $k
+    done
+done
